@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/jungle-scout",
   "title": "Jungle Scout",
-  "description": "Jungle Scout MCP — Amazon sales estimates + product database + keyword data",
-  "version": "0.1.2",
+  "description": "Jungle Scout MCP — Amazon sales estimates + product database + keyword data (junglescout.com).…",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/jungle-scout",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-jungle-scout",
