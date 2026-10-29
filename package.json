@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-jungle-scout",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Jungle Scout MCP — Amazon sales estimates + product database + keyword data (junglescout.com). Data that generic e-commerce / traject packs lack: per-ASIN estimated units sold, revenue, and Amazon keyword search volume.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-jungle-scout": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "jungle-scout"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-jungle-scout.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/jungle-scout",
   "pipeworx": {
-    "sourceHash": "v1-df1ef6e4e8c64e6dc2fffe6515f647ee45ffe1a5c2d51f85b15c169c753eeb5a",
-    "sourceCommit": "33741fe6d9ba71856e73fa683c73572d1ddf2e93"
+    "mode": "gateway",
+    "slug": "jungle-scout",
+    "gatewaySlug": "jungle-scout",
+    "sourceHash": "v1-33fd7a3fb62e7f08a104b8eb84e22c2ba8d911293eef8d0716a3b54c011adaf3",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
