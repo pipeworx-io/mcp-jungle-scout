@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-jungle-scout",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Jungle Scout MCP — Amazon sales estimates + product database + keyword data (junglescout.com). Data that generic e-commerce / traject packs lack: per-ASIN estimated units sold, revenue, and Amazon keyword search volume.",
   "type": "module",
   "main": "lib/index.js",
@@ -28,6 +28,6 @@
     "slug": "jungle-scout",
     "gatewaySlug": "jungle-scout",
     "sourceHash": "v1-33fd7a3fb62e7f08a104b8eb84e22c2ba8d911293eef8d0716a3b54c011adaf3",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
